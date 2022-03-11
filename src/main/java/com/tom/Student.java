@@ -1,7 +1,5 @@
 package com.tom;
 
-import java.sql.SQLOutput;
-
 public class Student {
     String name;
     int englishs;
@@ -11,6 +9,7 @@ public class Student {
     }
     public Student(String name,int englishs,int maths){
     //this.name = name;
+    this(name);
     this.englishs = englishs;
     this.maths = maths;
     }
@@ -22,11 +21,13 @@ public class Student {
         maths = -1;*/
     }
     public void print(){
-        int average = ((englishs+maths)/2);
-        System.out.print(name + "\t" + englishs+"\t" + maths + "\t" + average);
-        if (average < 60){
+        System.out.print(name + "\t" + englishs+"\t" + maths + "\t" + getaverage());
+        if (getaverage() < 60){
             System.out.print("*");
         }
         System.out.println();
+    }
+    public int getaverage(){
+        return ((englishs+maths)/2);
     }
 }

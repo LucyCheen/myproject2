@@ -2,10 +2,12 @@ package com.tom;
 
 public class Scoring {
     public static void main(String[] args) {
-        Student Cody = new Student("Cody",80,45);
-        Student Toy = new Student("Toy",70,20);
-        Student s = new Student();
-        Cody.print();
-        Toy.print();
+        Student cody = new Student("Cody",80,45);
+        Student toy = new Student("Toy",70,20);
+        GraduateStudent jane = new GraduateStudent("Jane",70,30,50);
+
+        cody.print();
+        toy.print();
+        jane.print();
     }
 }
