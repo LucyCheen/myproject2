@@ -8,8 +8,7 @@ public class Hello {
 
 
         int diff = Math.abs(100-300);
-        System.out.println();
-
+        System.out.println(diff);
 
 
         System.out.println("Hello Word!");

@@ -23,10 +23,10 @@ public class Customer {
         customers.add(new Customer2("002",800));
         customers.add(new SilverCustomer("003",2000));
         customers.add(new GoldCustomer("004",5000));
-        customers.add(new DiscountCustomer("006",900));
-        for (int i = 0; i < 5; i++) {
-            customers.get(i).print();
-        }
+        customers.add(new DiscountCustomer("005",900));
+        //for (int i = 0; i < 5; i++) {
+        //    customers.get(i).print();
+        //}
         for(Customer2 c: customers){
             c.print();
         }

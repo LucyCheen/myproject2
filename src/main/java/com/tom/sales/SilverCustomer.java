@@ -1,7 +1,6 @@
 package com.tom.sales;
 
 public class SilverCustomer extends Customer2 {
-    int GiveMoney;
     public SilverCustomer(String id,int amount){
         super(id,amount);
     }
