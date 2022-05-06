@@ -1,6 +1,13 @@
 package com.tom.ticket;
 
 import java.util.Scanner;
+/* 台北  台中  高雄
+   100  200  300
+      500  600
+   <====1100====>
+ */
+
+
 
 public class Tester {
     public static void main(String[] args) {
@@ -22,7 +29,7 @@ public class Tester {
                 start = Station.KAOHSIUNG_STSTION;
                 break;
         }
-        System.out.println("You start station?(1: Taipei, 2:Taichung, 3:Kaohsiung)");
+        System.out.println("You destination station?(1: Taipei, 2:Taichung, 3:Kaohsiung)");
         choice = Integer.parseInt(scanner.next());
         Station destination = null;
         switch (choice){

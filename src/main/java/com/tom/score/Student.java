@@ -1,6 +1,6 @@
 package com.tom.score;
 
-public class Student {
+public class Student implements Printable{
     String name;
     int englishs;
     int maths;
@@ -20,6 +20,7 @@ public class Student {
         englishs = -1
         maths = -1;*/
     }
+    @Override
     public void print(){
         System.out.print(name + "\t" + englishs+"\t" + maths + "\t" + getaverage());
         if (getaverage() < 60){
