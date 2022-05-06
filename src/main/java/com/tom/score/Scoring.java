@@ -1,6 +1,6 @@
 package com.tom.score;
 
-import com.tom.sales.Customer2;
+import com.tom.GraduateStudent;
 
 import java.util.ArrayList;
 import java.util.List;

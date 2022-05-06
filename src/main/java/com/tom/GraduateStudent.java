@@ -1,6 +1,8 @@
-package com.tom.score;
+package com.tom;
 
-public class GraduateStudent extends Student{
+import com.tom.score.Student;
+
+public class GraduateStudent extends Student {
     int thesis;
     public GraduateStudent(String name,
                            int englishs,
